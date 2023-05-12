@@ -1,0 +1,28 @@
+
+{% extends 'home_page/base.html' %}
+{% block content %}
+{% load static %}
+    <header>
+        <div>
+            <button><a href="user/logout">Log out</a></button>
+        </div>
+        {% block home_page_css %}
+            <link rel="stylesheet" href=" {% static 'home_page/styles/style.css'%} ">
+        {% endblock %}
+    </header>
+    <div>
+        <h3>Welcome </h3>
+    </div>
+    <section>
+        {% for product in products %}
+            <div class="products">
+                <h1>{{product.title}}</h1>
+                
+                <p>MRP : {{product.price}}</p>
+                <p>Rating : {{product.rating}}</p>
+                
+            </div>
+            
+        {% endfor %}
+    </section>
+{% endblock content %}

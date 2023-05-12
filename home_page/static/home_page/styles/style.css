@@ -1,0 +1,14 @@
+body{
+    background-color: #6e80bd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products
+{
+    
+    border:solid;
+    background-color: white;
+    padding: 3rem;
+    
+}

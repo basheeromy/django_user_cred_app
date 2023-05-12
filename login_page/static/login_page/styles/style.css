@@ -1,0 +1,43 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    background-color : #579c9c;
+    align-items : center;
+}
+#section1
+{
+    border:solid;
+    background-color: rgb(219, 206, 206);
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    width: 30rem;
+    height:fit-content;
+    border-radius:2rem;
+}
+#forgot-password a
+{
+    text-decoration : none;
+}
+form 
+{
+    display: flex;
+    flex-direction:column;
+    margin : 2rem;
+    align-items : center;
+
+}
+form div
+{
+    margin: 1rem;
+}
+#submit-button
+{
+    width: 100px; 
+}
+.nav-bar
+{
+    display: flex;
+    list-style: none;
+}
